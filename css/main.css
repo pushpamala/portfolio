@@ -1,0 +1,84 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+	#container {
+		width: 800px;
+		margin: 20px auto;
+		padding: 0;
+	}
+}
+
+.header-line {
+	background-color: #7d97ad;
+	height: 3px;
+}
+
+.personal-info {
+	color: #2d3c49;
+}
+
+.header {
+	display: flex;
+}
+
+.header-item {
+	flex-grow: 1;
+}
+
+.name {
+	font-size: 50px;
+	text-align: right;
+	margin: 24px 0 0;
+	padding: 0;
+}
+
+.role {
+	font-size: 20px;
+	text-align: right;
+	margin: 0 0 20px;
+	padding: 0
+}
+
+.hero-img {
+	max-width: 100%;
+
+}
+
+.featured {
+	color: #7d97ad;
+	margin: 20px auto 8px;
+}
+
+.project-container {
+	display: flex;
+	height: 50%;
+}
+
+.project {
+	flex-grow: 1;
+	width: calc((100% - 20px)/3);
+	margin-right: 10px;
+	text-align: center;
+	color: #2d3c49;
+}
+
+.project:last-child {
+	margin-right: 0;
+}
+
+.featured-image {
+	width: 100%;
+
+}
